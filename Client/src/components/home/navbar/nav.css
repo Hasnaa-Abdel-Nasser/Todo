@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+.nav .logo{
+   width:50px;
+   margin-top:9px
+}
+.nav{
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #263238;
+    height: 8vh;
+    z-index: 100;
+    transition: all 0.4s ease-in;
+    padding: 0 5%;
+}
+.login{
+    text-decoration: none;
+    color: rgba(33, 204, 203, 1);
+    font-weight: 700;
+    border:2px rgba(33, 204, 203, 1) solid;
+    padding:5px 30px;
+    border-radius: 5px;
+    
+}
+.login:hover{
+    box-shadow: 0px 0px 15px rgba(33, 204, 203, 1);
+}

@@ -1,0 +1,132 @@
+.auth{
+    width:100%;
+    height: 100vh;
+    background-color: #263238;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color:white;
+    text-align: center;
+}
+.auth .child1{
+    background-image: url(../images/circle1.png);
+    width:150px;
+    height: 150px;
+    background-size: cover;
+    position: absolute;
+    top:-5%;
+    left:25%;
+    transform: rotate(240deg);
+}
+.auth .child2{
+    background-image: url(../images/circle2.png);
+    width:80px;
+    height: 80px;
+    background-size: cover;
+    position: absolute;
+    top:10%;
+    right:20%;
+    transform: rotate(240deg);
+}
+.auth .form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    width:300px;
+}
+.auth .google{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap:10px;
+   border: 1px rgb(166, 166, 166) solid;
+   padding:5px 0;
+   width:100%;
+   border-radius: 5px;
+   margin-top: 25px;
+   cursor: pointer;
+}
+.auth .inputs{
+    width: 100%;
+    position: relative;
+}
+.auth .inputs input{
+    width:85%;
+    background-color: transparent;
+    border:1px rgb(166, 166, 166) solid;
+    padding:10px 20px;
+    border-radius: 5px;
+    color:white;
+    margin-bottom: 20px;
+    outline: none;
+}
+.auth .inputs button{
+    width:100%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    background: linear-gradient(to top left, #aaebf7 0%, rgba(33, 204, 203, 1) 100%);
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: 12px;
+}
+.auth .sign-up{
+    font-size: 12px;
+    font-weight: 200;
+    display:flex;
+    gap:10px;
+}
+.toggle-password {
+    position: absolute;
+    top: 6%;
+    left: 90%;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.repassword{
+    top: 43%;
+}
+.auth .register{
+    top: 58%;
+}
+.submit .icon{
+    width:43px;
+    height:43px;
+}
+.verify-form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.verify input{
+    text-align: center;
+    width: 15% !important;
+}
+.timer{
+    text-align: end;
+    font-size: 13px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.resend-email{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap:10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,87 @@
+header{
+    background-color: #263238;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.header-text{
+    text-align: center;
+    color:#cceff5;
+    z-index:9;
+}
+.header-text h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.header-text p{
+    font-size: 20px;
+    width:70%;
+    margin:auto;
+    padding-bottom: 40px;
+}
+.header-text a{
+    text-decoration: none;    
+    background-color: rgba(33, 204, 203, 1);
+    padding:10px 30px;
+    color:white;
+    font-size: 17px;
+    transition: ease-in-out 0.2s;
+    animation: getstarted 5s infinite linear;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #2632386d;
+}
+.header-text a:hover{
+    background-color:rgba(33, 204, 204, 0);
+    box-shadow: 0px 0px 15px rgba(33, 204, 203, 1);
+    color:rgba(33, 204, 203, 1);
+    border: 2px rgba(33, 204, 203, 1) solid;
+}
+@keyframes getstarted {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }
+.calendar{
+    width:300px;
+    position:absolute;
+    top:20%;
+    left:5%;
+    transform: rotate(340deg);
+}
+.girl-header{
+    position:absolute;
+    width:450px;
+    height:50px;
+    right:-5%;
+    top:30%;
+    transform: rotate(10deg);
+}
+.background-circle{
+    position:absolute;
+    z-index:8;
+    width:100%;
+}
